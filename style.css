@@ -1,0 +1,95 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+body{
+  background-color:#EFE7BC;
+  color:#8B18E7;
+}
+.title input{
+  width:500px;
+  height:30px;
+  line-height:20px;
+  margin-bottom:1em;
+  color:#8B18E7;
+  
+}
+header{
+  margin:1rem 0;
+}
+
+.massContainer h1{
+  text-transform: uppercase;
+}
+.details input{
+  width:500px;
+  height:50px;
+  margin-bottom:20px;
+}
+.title input,.details input{
+  border:none;
+  box-shadow:5px 5px 9px#B8B8B8;
+}
+
+.clearfix::after{
+  content:"";
+  clear:both;
+  display:table;
+}
+.showNotes{
+  width:500px;
+  margin-top:10px;
+  color:#8B28D7;
+}
+
+.storenotes{
+  width:100px;
+  height:100px;
+  background-color:#74D728;
+ 
+  margin-bottom: 5px;
+  float:left;
+  margin-right:10px;
+  flex:1;
+  }
+
+.fa-plus{
+padding:10px;
+}
+.addDetails{
+  padding:10px;
+
+}
+.noteHeading{
+ text-decoration:underline;
+ text-transform: uppercase;
+ 
+}
+.massContainer{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+}
+.noteDetails{
+  color: #8B18E7;
+}
+.addNote{
+  background-color: whitesmoke;
+  color:#8B18E7;
+  border:none;
+  box-shadow:5px 5px 9px#B8B8B8;
+}
+.addNote:hover{
+ background-color:#8B18E7;
+ color:whitesmoke
+}
+.container{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
